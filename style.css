@@ -176,5 +176,68 @@ font-weight: 500;
 {   
     padding-left: 5px;
     padding-bottom:25px;
+}
+.work
+{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    padding-bottom: 10px;
+}
+.work .left
+{
+    position:relative;
+}
+.work .left ul li
+{
+    list-style: none;
+    padding-left:40px;
+    padding-bottom:50px;
+}
+.work .right
+{
+    position:relative;
+    border-left: 4px solid #000;
+}
+.work .right ul
+{
+    padding-left: 30px;
+}
+.work .right ul li
+{  
+    padding-left: 10px;
+    list-style:disc;
+    padding-bottom:30px;
+}
+.work h4
+{
    
+    color: #000;
+    text-transform: uppercase;
+}
+.work h3
+{
+    color: #21218f;
+    padding-left: 100px;
+}
+.about .hobicon
+{   
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding-left: 70px;
+}
+.about .iconh
+{
+    font-size: 30px;
+    padding-bottom:25px;
+    justify-items: center;
+    
+}
+.iconh h3
+{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 100px;
 }
