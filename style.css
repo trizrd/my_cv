@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url('image/backround.jpg');
+    background-size: cover; /* Để hình nền bao phủ toàn bộ khu vực */
+    background-repeat: no-repeat; /* Để hình nền không lặp lại */
+    background-position: center; /* Để hình nền căn giữa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.container
+{
+    position:relative;
+    width:100%;
+    max-width:1000px;
+    min-height:100px;
+    background:#ffffff;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+/**************************************************************************************************************************************************/
+.container .left_side
+{
+    position:relative;
+    background:#21218f;
+    padding:40px;
+}
+.profile{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+.profile .imgbx
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.profile .imgbx img
+{
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height:100%;
+object-fit: cover;
+}
+.profile h2
+{
+color: #ffffff;
+font-size:1.2em;
+margin-top:20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.contact
+{
+padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    padding-top: 30px;
+}
+.contact ul
+{
+    position: relative;
+    padding-top: 20px;
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin:20px 0;
+    cursor: pointer;
+}
+.contact ul li .icon
+{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: aqua;
+}
+.contact ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+h5
+{
+    color:aqua ;
+}
+h4
+{
+color: #fff;
+margin-top: 5px;
+font-weight: 300;
+}
+h4:nth-child(2)
+{
+color: #fff;
+margin-top: 5px;
+font-weight: 500;
+}
+
+.language .percent {
+    position: relative;
+    height: 10px; /* Chiều cao của progress bar */
+    background: rgba(255, 255, 255, 0.3); /* Nền bên dưới */
+    border-radius: 5px; /* Bo tròn góc */
+    overflow: hidden;
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+}
+.language .percent div
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    background: #fff;
+    display: block;
+    border-radius: 5px;
+}
+.text
+{
+    color: #fff;
+}
+
+/**************************************************************************************************************************************************/
+.container .right_side
+{
+    position:relative;
+    background:#ffffff;
+    padding:20px;
+}
+
+.about .title
+{
+    background-color: #21218f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    width:100%;
+    height:50px;
+    display: flex;
+    border-radius: 50px 0px 0px 50px;
+    align-items: center;
+}
+.title .icon
+{   padding-left: 10px;
+    font-size: 20px;
+    padding-bottom:25px;
+    text-align: center;
+}
+.title h3
+{   
+    padding-left: 5px;
+    padding-bottom:25px;
+   
+}

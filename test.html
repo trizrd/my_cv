@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia Section Theo Chiều Ngang</title>
+    <style>
+        /* Container chính */
+        .container {
+            display: flex;       /* Thiết lập flex cho container */
+            justify-content: space-between; /* Căn đều khoảng cách giữa các section */
+        }
+
+        /* Các section con */
+        .section {
+            flex: 1;             /* Chia đều độ rộng cho các section */
+            padding: 20px;
+            border: 1px solid #333;
+            text-align: center;
+            margin: 5px;         /* Khoảng cách giữa các section */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">Section 1</div>
+        <div class="section">Section 2</div>
+        
+    </div>
+</body>
+</html>
