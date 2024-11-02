@@ -1,18 +1,86 @@
 <style>
-    p {
-        font-size: 18px;
-        color: #000;
+
+.skill
+{
+
+position:relative;
+
+padding-left:20px ;
+}
+.skill h3
+{
+        font-size: 16px;
+        color: #21218f;
         line-height: 1.6;
         border-radius: 5px;
         margin-bottom:10px;
         padding-left:20px ;
-    }
-    
+        font-weight: 100px;
+}
+.percent {
+    position: relative;
+    height: 10px; 
+    background: rgba(158, 155, 155, 0.3); 
+    border-radius: 5px; 
+    overflow: hidden;
+    margin-top: 5px;
+    display: block;
+    margin-left:20px;
+   
+}
+.percent div
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    background: #060ae2bb;
+    display: block;
+    border-radius: 5px;
+}   
+.skill ul li 
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    padding-bottom: 20px;
+}
 </style>
-<p> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a senior student at Ho Chi Minh City University of Technology and Education, currently pursuing a degree in 
-    Electronics and Telecommunication Engineering. My academic journey has equipped me with 
-    a solid foundation in Embeded Engineering, Basic Electronics knowledge . I am highly motivated to gain practical experience and apply my knowledge in a real-world setting through
-    an internship. I am eager to contribute my skills, learn from industry professionals, and grow within a collaborative
-    and innovative environment.
-</p>
+<div class="skill">
+    <ul>
+        <li>
+                <h3>C/C++</h3>
+                <span class="percent">
+                       <div style="width: 60%;"></div>
+                </span>
+        </li>
+        <li>
+                <h3>HTML</h3>
+                <span class="percent">
+                   <div style="width: 30%;"></div>
+                </span>
+        </li>
+
+        <li>
+                <h3>ANDROID PROGRAM</h3>
+                <span class="percent">
+                    <div style="width: 50%;"></div>
+                </span>
+        </li>
+
+        <li>
+                <h3>ESP32 EMBEDED</h3>
+                <span class="percent">
+                  <div style="width: 40%;"></div>
+                </span>
+        </li>
+
+        <li>
+                <h3>ELECTRONIC</h3>
+                <span class="percent">
+                  <div style="width: 40%;"></div>
+                </span>
+        </li>
+
+    </ul>
+</div>
