@@ -93,7 +93,7 @@ padding-top: 40px;
 .contact ul li .icon
 {
 display: inline-block;
-width: 30px;
+width: 17px;
 font-size: 18px;
 color: aqua;
 }
@@ -143,6 +143,10 @@ font-weight: 500;
 .text
 {
     color: #fff;
+    text-align: left;
+    font-size:16px;
+    transition: color 0.3s;
+    text-decoration: none;
 }
 
 /**************************************************************************************************************************************************/
@@ -190,7 +194,6 @@ font-weight: 500;
 .work .left ul li
 {
     list-style: none;
-    padding-left:40px;
     padding-bottom:50px;
 }
 .work .right
@@ -219,19 +222,34 @@ font-weight: 500;
     color: #21218f;
     padding-left: 100px;
 }
-.about .hobicon
+.about .hobicon ul
 {   
     width: 100%;
-    justify-content: center;
+    justify-items: center;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    padding-left: 70px;
+}
+.about .hobicon ul li
+{
+  list-style: none;
 }
 .about .iconh
-{
+{ 
+    color: #21218f;
     font-size: 30px;
     padding-bottom:25px;
     justify-items: center;
+    padding-left:20px;
+    margin-right: 20px;
+    
+}
+.about .iconh2
+{
+    color: #21218f;
+    font-size: 30px;
+    padding-bottom:5px;
+    justify-items: center;
+    padding-left:10px;
     
 }
 .iconh h3
@@ -240,4 +258,9 @@ font-weight: 500;
     font-size: 20px;
     text-align: center;
     padding-right: 100px;
+}
+
+/***********************************************transition*********************************************************/
+.contact ul li .text:hover {
+    color: aqua; /* Màu xanh khi di chuột vào */
 }
